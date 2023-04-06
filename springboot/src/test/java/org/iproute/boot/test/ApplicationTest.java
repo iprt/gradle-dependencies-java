@@ -17,7 +17,7 @@ class ApplicationTest {
     private StringService stringService;
 
     @Test
-    void contextLoads() {
+    void testShare() {
         Assertions.assertTrue(stringService.actionEmpty(EMPTY));
         Assertions.assertTrue(stringService.actionBlank(BLANK));
 
