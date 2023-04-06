@@ -1,5 +1,7 @@
 package org.iproute.commons.action;
 
+import lombok.Getter;
+import lombok.Setter;
 import org.apache.commons.lang3.StringUtils;
 import org.iproute.commons.model.DemoModel;
 
@@ -10,6 +12,10 @@ import org.iproute.commons.model.DemoModel;
  * @since 4/6/2023
  */
 public class DemoAction {
+
+    @Setter
+    @Getter
+    private String name;
 
     /**
      * Is blank boolean.
