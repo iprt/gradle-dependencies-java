@@ -1,0 +1,21 @@
+// pluginManagement {
+//     repositories {
+//         gradlePluginPortal()
+//         google()
+//         mavenCentral()
+//     }
+// }
+rootProject.name = 'gradle-dependencies-java'
+
+include('springboot')
+include('commons:model')
+include('commons:action')
+
+/*
+include('model')
+project(':model').projectDir = file('commons/model')
+project(':model').buildFileName = "build.gradle"
+
+include('action')
+project(':action').projectDir = file('commons/action')
+*/

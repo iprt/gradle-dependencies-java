@@ -1,0 +1,7 @@
+plugins {
+    id 'org.iproute.java-conventions'
+}
+
+dependencies {
+    implementation(project(":commons:model"))
+}
