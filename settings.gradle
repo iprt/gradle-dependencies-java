@@ -11,6 +11,10 @@ include('springboot')
 include('commons:model')
 include('commons:action')
 
+
+include('commons2:app')
+include('commons2:utils')
+
 /*
 include('model')
 project(':model').projectDir = file('commons/model')
